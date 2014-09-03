@@ -1,0 +1,27 @@
+{
+    "context": "client",
+    "identifier": "com.pa.trialq.tHideUberBar",
+    "display_name": "Hide UberBar",
+    "description": "Hides the UberBar everywhere.",
+    "author": "trialq",
+    "version": "1.0.1",
+    "build": "71459",
+    "date": "2014/09/03",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/rel-hide-uber-bar.59626/",
+    "icon": "http://pamods.github.io/icons/tHideUberBar.png",
+    "category": [
+        "in-game",
+        "ui"
+    ],
+    "scenes": {
+        "uberbar": [
+            "coui://ui/mods/tHideUberBar/uberbar/js.js"
+        ],
+        "live_game": [
+            "coui://ui/mods/tHideUberBar/live_game/js.js"
+        ]
+    },
+    "priority": 100,
+    "enabled": true
+}
